@@ -10,7 +10,7 @@ pipeline {
         stage('Clone') {
             steps {
                 timeout(time: 2, unit: 'MINUTES'){
-                    git branch: 'main', credentialsId: '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', url: 'https://github.com/Henyelrey/SysAdmin.git'
+                    git branch: 'main', credentialsId: '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', url: 'https://github.com/Henyelrey/SysAdmin.git'
                 }
             }
         }
